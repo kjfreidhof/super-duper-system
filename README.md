@@ -32,6 +32,8 @@ unzip discord.zip
 
 option 3
 
+Download and extract the multiple tar ball files 
+
 ```
 tar -xvf discord.tar.gz
 ```
