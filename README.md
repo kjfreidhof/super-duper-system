@@ -12,7 +12,6 @@ all you really need is git but i am going to package this as a binary release as
 github you wont maybe need it in the future but for now you need git 
 
 ```
-
 sudo apt install git 
 ```
 
