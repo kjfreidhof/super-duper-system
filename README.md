@@ -6,10 +6,9 @@ I wanted to create a script that was easy to get discord easy and simple to setu
 debian and i think i accomplished that with this script 
 
 
-# Requirements 
+# Optional Requirements 
 
-all you really need is git but i am going to package this as a binary release as well on 
-github you wont maybe need it in the future but for now you need git 
+you dont need this it is optional  
 
 ```
 sudo apt install git 
@@ -17,7 +16,38 @@ sudo apt install git
 
 # How to run the scripts
 
-First do 
+option 1 
+
+```
+git clone https://github.com/kjfreidhof/super-duper-system.git
+```
+
+option 2
+
+Download the zip binary and do in your terminal 
+
+```
+unzip discord.zip
+```
+
+option 3
+
+```
+tar -xvf discord.tar.gz
+```
+
+option 4
+
+```
+tar -xvf discord.tar.xz
+```
+
+option 5
+
+```
+tar -xvf discord.tar.bz2 
+```
+then First do 
 
 ```
 chmod +x debian-discord.sh
