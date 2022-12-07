@@ -32,6 +32,10 @@ secondly and lastly run the scripts
 ./debian-discord.sh
 ```
 
+```
+./unpack.sh 
+```
+
 Also do not need root to run any of these scripts because they elevate 
 you to root for you 
 
