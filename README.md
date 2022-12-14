@@ -56,7 +56,7 @@ chmod +x debian-discord.sh
 ```
 
 ```
-chmod +x unpack.sh 
+chmod +x pack.sh 
 ```
 secondly and lastly run the scripts 
 
@@ -65,7 +65,7 @@ secondly and lastly run the scripts
 ```
 
 ```
-./unpack.sh 
+./pack.sh 
 ```
 
 Also do not need root to run any of these scripts because they elevate 
