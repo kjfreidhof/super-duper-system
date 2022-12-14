@@ -62,11 +62,11 @@ read -rp "= " CHOICE
 if [ "$CHOICE" = 1 ]; then 
 	$skip_str
 elif [ "$CHOICE" = 2 ]; then 
-	wget https://dl.discordapp.net/apps/linux/0.0.21/discord-0.0.21.deb
+	wget https://dl.discordapp.net/apps/linux/0.0.22/discord-0.0.22.deb
 	$skip_str
 
 elif [ "$CHOICE" = 3 ]; then 
-	aria2c https://dl.discordapp.net/apps/linux/0.0.21/discord-0.0.21.deb
+	aria2c https://dl.discordapp.net/apps/linux/0.0.22/discord-0.0.22.deb
 	$skip_str 
 
 elif [ "$CHOICE" = 4 ]; then
@@ -79,9 +79,9 @@ else
 fi 
 
 # unpacks discord
-dpkg-deb -x discord-0.0.21.deb unpack
+dpkg-deb -x discord-0.0.22.deb unpack
 
-dpkg-deb --control discord-0.0.21.deb
+dpkg-deb --control discord-0.0.22.deb
 
 mv DEBIAN unpack
 

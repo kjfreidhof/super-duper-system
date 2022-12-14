@@ -42,10 +42,24 @@ dpkg -b unpack discord-fixed.deb
 sudo apt install ./discord-fixed.deb
 
 # removes the broken discord 
-rm discord-0.0.21.deb
 
-exit 
+echo "Do you want to remove the broken debian package? [|y|n|]"
+echo "y, yes"
+echo "n, no"
 
+read -rp "= " CHOICE
+
+if [ "$CHOICE" = y ]; then
+	echo "removing broken discord package...."
+	sleep 3
+	rm discord-0.0.22.deb
+	exit 
+
+else
+	echo "Exiting..."
+	exit 
+
+fi  
 
 
 
